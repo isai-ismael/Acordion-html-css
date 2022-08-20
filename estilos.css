@@ -1,0 +1,32 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   font-family: 'Exo 2', sans-serif;
+
+}
+section{
+   width: 700px;
+   padding: 40px;
+   background: rgb(235, 235, 235);
+   margin: auto;
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+summary{
+   background: rgb(0, 110, 255);
+   color: white;
+   padding: 20px;
+   cursor: pointer;
+   font-weight: bold;
+}
+p{
+   padding: 10px;
+   background: white;
+   color: rgb(61, 61, 61);
+}
